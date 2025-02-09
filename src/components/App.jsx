@@ -1,3 +1,4 @@
+import friends from '../friends.json'
 import { FriendList } from "./friend-list/FriendList";
 import user from '../user.json';
 import { SocialProfile } from "./social-profile/SocialProfile";
@@ -8,7 +9,7 @@ import { TransactionHistory } from "./transactions-history/Transaction/Transacti
 
 export const App = () => {
   return <>
-  <FriendList/>
+  <FriendList friends={friends}/>
   <SocialProfile
    username={user.username}
    tag={user.tag}

@@ -1,3 +1,5 @@
+import css from '../social-profile/SocialProfile.module.css'
+
 export const SocialProfile = ({username, tag, location, stats, avatar}) =>{
     return <div className="profile">
     <div className="description">
@@ -7,7 +9,7 @@ export const SocialProfile = ({username, tag, location, stats, avatar}) =>{
         className="avatar"
       />
       <p className="name">{username}</p>
-      <p className="tag">{tag}</p>
+      <p className="tag">@{tag}</p>
       <p className="location">{location}</p>
     </div>
   

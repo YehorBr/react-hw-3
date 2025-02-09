@@ -1,3 +1,5 @@
+import css from '../statistics/Statistics.module.css'
+
 export const Statistics = ({title, stats})=>{
     return <section className="statistics">
     <h2 className="title">{title}</h2>

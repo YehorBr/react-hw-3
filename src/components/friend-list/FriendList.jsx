@@ -1,6 +1,6 @@
-import friends from '../../friends.json'
+import css from '../friend-list/Friendlist.module.css'
 
-export const FriendList = ()=>{
+export const FriendList = ({friends})=>{
  return <ul>
     {
         friends.map((friend)=>{
