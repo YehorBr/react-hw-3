@@ -1,4 +1,3 @@
-import css from '../social-profile/SocialProfile.module.css'
 
 export const SocialProfile = ({username, tag, location, stats, avatar}) =>{
     return <div className="profile">
